@@ -16,17 +16,12 @@ Get Games that are scheduled for today:
 
 Include the teams for each game:
 ```php
-with( [ 'teams' ] )
-```
-
-Include the results for each game:
-```php
-with( [ 'results' ] )
+->with( 'teams' )
 ```
 
 Include the teams and results for each game:
 ```php
-with( [ 'teams', 'results' ] )
+->with( [ 'teams', 'results' ] )
 ```
 
 Get Games by Venue, for today only, include teams and results:
